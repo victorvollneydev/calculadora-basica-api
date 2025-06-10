@@ -1,0 +1,15 @@
+{
+  "name": "teste",
+  "version": "0.0.1",
+  "description": "projeto teste de node",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "victorv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
