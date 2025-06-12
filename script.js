@@ -18,7 +18,7 @@ app.post('/api', (req, res) => {
     divisao: dividir(numero1, numero2)
   }
 
-  res.json(resultado)
+  res.send(resultado)
 })
 
 app.listen(port, () => {
